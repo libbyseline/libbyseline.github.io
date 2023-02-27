@@ -645,8 +645,7 @@ footer {
     position: relative;
     max-width: 900px;
     margin: 0 auto 30px auto;
-    height: 300px;
-    overflow-y:scroll;
+    overflow: hidden;
     background: #fff;
     border-radius: 4px;
 }
@@ -661,8 +660,8 @@ footer {
     transform: translateY(-70%);
     margin-left: 300px;
     padding: 15px;
-    height: 300px;
-    overflow-y:scroll
+    overflow-y: auto;
+    max-height: 300px;
 
     h3 {
         font-size: 1.5em;
@@ -686,6 +685,8 @@ footer {
         margin: 0;
         padding: 30px 15px;
         transform: none;
+        overflow-y: auto;
+        max-height: 300px;
     }
 }
 
