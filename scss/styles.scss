@@ -673,6 +673,12 @@ footer {
         margin: 0 0 15px 0;
         font-size: 0.9em;
     }
+    
+    .DivWithScroll{
+    height:300px;
+    overflow:scroll;
+    overflow-x:hidden;
+    }
 }
 
 .no-image {
