@@ -659,7 +659,7 @@ footer {
     max-height: auto;
     position: absolute;
     margin-left: 300px;
-    padding: 10px;
+    padding: calc(100% - 300px);
 
     h3 {
         font-size: 1.5em;
